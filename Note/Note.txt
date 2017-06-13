@@ -1,0 +1,9 @@
+delete from Users where UserID !=1 and UserID !=1491
+delete from UserAliases
+delete from UserAlias_Roles
+delete from Group_User
+delete from InformTo
+delete from UnSubscriber
+
+l?nh sql excute SQL file
+sqlcmd -S DESKTOP-04HBTHR\SQLEXPRESS -U sa -P 123456 OMSDB F:\Document\OMSDB.sql
